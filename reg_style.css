@@ -1,0 +1,56 @@
+.bg{
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    position: absolute;
+    background: linear-gradient(to bottom right, rgb(25, 0, 255), rgb(0, 217, 255));
+
+}
+
+.formBox{
+    display: flexbox;
+    width: 500px;
+    height: 530px;
+    margin: 50px auto ;
+    padding: 20px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 3px 20px 20px 10px rgba(0, 0, 0, 0.294);
+    border-radius: 20px;
+
+}
+
+.boxMgln{
+    float: left;
+    height: 40px;
+    width: 100px;
+    margin-top: 20px;
+    margin-left: 200px;
+}
+
+.logoMgln{
+    width: 100px;
+    height: 40px;
+}
+.boxInput{
+    width: 450px;
+    height: 315px;
+    padding: 3%;
+    margin: 80px auto;
+    border-radius: 10px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: grey;
+    background-color: rgb(236, 236, 236);
+
+}
+
+.fnameBox{
+    margin-top: 10;
+    margin-left: 120px;
+    padding-left: 8px;
+    height: 25px;
+    width: 240px;
+    border-radius: 8px;
+    border-style: none ;
+    background-color: rgb(255, 255, 255);
+    
+}
